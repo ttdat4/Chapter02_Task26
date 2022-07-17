@@ -1,0 +1,48 @@
+/*-----------------------------------------
+content
+------------------------------------------*/
+
+.c-content {
+    display: block;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+
+    &__list {
+        display: inline-block;
+        height: 150px;
+        background-color: #e6ffe6;
+        width: calc(100%/3 - 20px);
+        position: relative;
+
+        &--num {
+            text-align: center;
+
+            .u-link {
+                p {
+                    font-size: 5rem;
+                    color: #000;
+                }
+            }                        
+        }
+
+        &--com {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            background-color: #001900;
+            height: 20%;
+            width: 90%;
+
+            .u-link{
+                p{
+                    color: #e2ffe6;
+                }
+            }
+        }
+    }
+}
+
+
+/*-----------------------------------------
+------------------------------------------*/
